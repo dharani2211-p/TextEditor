@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <div class="control">
+          <div ><label>Font Family   <select id="font-family-selector"></select></label></div>
+          <div ><label>Varient   <select  id="font-weight-selector"></select></label></div>
+          
+          <label class="switch">
+          <input  id="italic-toggle" type="checkbox" checked>
+          <span class="slider round">Italic</span>
+          </label>
+        </div>
+        <textarea id="text-editor"></textarea>
+        <div class="button-div">
+        <button id="reset-button" >Reset</button>
+        <button id="save-button">Save</button>
+      </div>
+    </div>
+    <script src="fonts.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

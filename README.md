@@ -10,7 +10,7 @@
         </ul>
         <h2>Files</h2>
         <ul>
-            <li><code>htmlpage.html</code>: The HTML structure of the text editor.</li>
+            <li><code>index.html</code>: The HTML structure of the text editor.</li>
             <li><code>styles.css</code>: CSS file for styling the editor and controls.</li>
             <li><code>fonts.js</code>: JavaScript file containing font data and URLs.</li>
             <li><code>script.js</code>: JavaScript file handling editor functionality and local storage.</li>
